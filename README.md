@@ -45,6 +45,8 @@ Open a command prompt window and go to the path where cloud_sql_proxy.exe file p
 	
 	get the <Connection name> from cloud postgresql instance and default <port no> is 5432
 	
+Note: This window should not be closed until you are doing the operation with the database else the connection will be closed.
+	
 ## Step5: Connect to database of postgresql instance postgresql-1 from another command prompt	
 Open another command prompt window 	and execute the below command to connect to the database and query the tables.
 
